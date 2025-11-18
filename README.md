@@ -112,6 +112,13 @@ Z-axis reads a negative value.
 | **UART Output**           | <img src="images/uart_flipped.jpg" width="180">  | UART continuously prints **“FLIPPED”** to the computer COM port.                                           |
 
 ---
+## Full Breadboard Setup
+
+Complete hardware setup when the device is in **flipped orientation** (Z negative ).
+
+<img src="images/breadboard_case2.jpg" width="450">
+
+---
 
 # 🔵 Case 3 — User Pushes the On-Board Button (GPIO Input)
 
