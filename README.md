@@ -36,7 +36,7 @@ UART prints orientation state messages to the PC COM port.
 
 | Component                 | Image                                         | Protocol | Pin(s) Used                                           | Description                  |
 | ------------------------- | --------------------------------------------- | -------- | ----------------------------------------------------- | ---------------------------- |
-| **ST7735 TFT Display**    | <img src="images/st7735.jpg" width="120">     | SPI      | PB3 (CS), PB4 (DC), PB5 (RST), PB10 (SCK), PC3 (MOSI) | 128×160 color LCD            |
+| **ST7735 TFT Display**    | <img src="images/st7735.jpg">     | SPI      | PB3 (CS), PB4 (DC), PB5 (RST), PB10 (SCK), PC3 (MOSI) | 128×160 color LCD            |
 | **ADXL345 Accelerometer** | <img src="images/adxl345.jpg" width="120">    | I2C      | PB8 (SCL), PB9 (SDA)                                  | ±4g orientation sensor       |
 | **UART2 Output**          | <img src="images/uart_usb.jpg" width="120">   | USART2   | PA2 → USB                                             | Sends “NORMAL/FLIPPED” to PC |
 | **Pushbutton**            | <img src="images/pushbutton.jpg" width="120"> | GPIO Input    | PC13                                                  | Triggers LED toggle (press = LED off, release = LED on)        |
