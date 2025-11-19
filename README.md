@@ -116,7 +116,7 @@ Z-axis reads a negative value.
 
 Complete hardware setup when the device is in **flipped orientation** (Z negative ).
 
-<img src="images/breadboard_case2.PNG" width="450">
+<img src="images/breadboard_case2.jpg" width="450">
 
 ---
 
