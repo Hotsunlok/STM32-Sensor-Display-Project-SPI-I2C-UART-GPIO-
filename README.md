@@ -125,7 +125,7 @@ Complete hardware setup when the device is in **flipped orientation** (Z negativ
 | Component              | Proof Image                                            | Behaviour Explanation                          |
 | ---------------------- | ------------------------------------------------------ | ---------------------------------------------- |
 | **User Button (PC13)** | <img src="images/push_button_pressed.jpg" width="180"> | Button is **pressed** (PC13 pulled LOW).       |
-| **On-Board LED (PA5)** | <img src="images/pa5_led_off.jpg" width="180">         | When the button is pressed, LED turns **OFF**. |
+| **On-Board LED (PA5)** | <img src="images/blue_led_off.jpg" width="180">         | When the button is pressed, LED turns **OFF**. |
 
 ---
 
