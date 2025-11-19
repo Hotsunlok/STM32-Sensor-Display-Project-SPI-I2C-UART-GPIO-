@@ -81,10 +81,10 @@ Z-axis reads a positive value.
 | Component                 | Proof Image                                     | Behaviour Explanation                                                                             |
 | ------------------------- | ----------------------------------------------- | ------------------------------------------------------------------------------------------------- |
 | **ADXL345 Accelerometer** | <img src="images/adxl_up.jpg" width="180">      | Sensor is facing upward → Z-axis ≈ **+1g**.                                                       |
-| **ST7735 LCD**            | <img src="images/lcd_normal.jpg" width="180">   | Screen shows **green wallpaper** and large text **“NORMAL”**. XYZ raw values displayed at bottom. |
+| **ST7735 LCD**            | <img src="images/lcd_normal.jpg" >   | Screen shows **green wallpaper** and large text **“NORMAL”**. XYZ raw values displayed at bottom. |
 | **Green LED (PA8)**       | <img src="images/green_led_on.jpg" width="180"> | Green LED **turns ON** to indicate stable “normal” position.                                      |
 | **Red LED (PA9)**         | <img src="images/red_led_off.jpg" width="180">  | Red LED **remains OFF** since device is not flipped.                                              |
-| **Buzzer**                | <img src="images/buzzer_off.jpg" width="180">   | Buzzer stays **OFF** in normal orientation.                                                       |
+| **Buzzer**                | <img src="images/buzzer.jpg" width="180">   | Buzzer stays **OFF** in normal orientation.                                                       |
 | **UART Output**           | <img src="images/uart_normal.jpg" width="180">  | UART prints **“NORMAL”** to the computer COM port.                                                |
 
 ---
@@ -108,8 +108,8 @@ Z-axis reads a negative value.
 | **ST7735 LCD**            | <img src="images/lcd_flipped.jpg" width="180">   | Screen shows **red wallpaper** and large text **“FLIPPED”**. XYZ raw values still displayed at the bottom. |
 | **Green LED (PA8)**       | <img src="images/green_led_off.jpg" width="180"> | Green LED **turns OFF**, because device is not in normal position.                                         |
 | **Red LED (PA9)**         | <img src="images/red_led_on.jpg" width="180">    | Red LED **turns ON** to signal a flipped / unsafe orientation.                                             |
-| **Buzzer**                | <img src="images/buzzer_on.jpg" width="180">     | Buzzer switches **ON** to alert the user.                                                                  |
-| **UART Output**           | <img src="images/uart_flipped.jpg" width="180">  | UART continuously prints **“FLIPPED”** to the computer COM port.                                           |
+| **Buzzer**                | <img src="images/buzzer.jpg" width="180">     | Buzzer switches **ON** to alert the user.                                                                  |
+| **UART Output**           | <img src="images/uart_flipped.jpg" >  | UART continuously prints **“FLIPPED”** to the computer COM port.                                           |
 
 ---
 ## Full Breadboard Setup
