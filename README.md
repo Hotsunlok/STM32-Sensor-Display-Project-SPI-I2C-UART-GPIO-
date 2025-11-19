@@ -41,7 +41,7 @@ UART prints orientation state messages to the PC COM port.
 | **UART2 Output**          | <img src="images/uart_normal.jpg" >   | USART2   | PA2 → USB                                             | Sends “NORMAL/FLIPPED” to PC |
 | **Pushbutton**            | <img src="images/pushbutton.jpg" > | GPIO Input    | PC13                                                  | Triggers LED toggle (press = LED off, release = LED on)        |
 | **External Blue LED**     | <img src="images/blue_led.jpg" > | GPIO  Output   | PA5                                                  | Visual indicator used with pushbutton (ON when button released, OFF when pressed)        |
-| **Green LED**             | <img src="images/led_green.jpg" >  | GPIO     | PA8                                                   | ON in NORMAL orientation     |
+| **Green LED**             | <img src="images/green_led_on.jpg" >  | GPIO     | PA8                                                   | ON in NORMAL orientation     |
 | **Red LED**               | <img src="images/led_red.jpg" >    | GPIO     | PA9                                                   | ON in FLIPPED orientation    |
 | **Buzzer**                | <img src="images/buzzer.jpg" >     | GPIO     | PA6                                                   | Audible alert when flipped   |
 
